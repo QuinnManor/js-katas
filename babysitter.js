@@ -1,1 +1,3 @@
-export const startTime = 1700;
+export function startTime(time) {
+    return time;
+};
