@@ -1,6 +1,10 @@
 export function startTime(time) {
-    if (time < 1700){
-        time = 1700
-    };
-    return time;
-};
+  if (time < 17) {
+    time = 17;
+  }
+  return time;
+}
+
+export function endTime(time) {
+  return time;
+}
