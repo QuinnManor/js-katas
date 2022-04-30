@@ -6,5 +6,8 @@ export function startTime(time) {
 }
 
 export function endTime(time) {
+  if (time > 4) {
+    time = 4;
+  }
   return time;
 }

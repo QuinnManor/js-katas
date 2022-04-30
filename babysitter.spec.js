@@ -16,4 +16,8 @@ describe("End Time", () => {
     expect(endTime(4)).toEqual(4);
     expect(endTime(3)).toEqual(3);
   });
+  test("Testing is no later than 4am", () => {
+    expect(endTime(5)).toEqual(4);
+    expect(endTime(6)).toEqual(4);
+  });
 });
